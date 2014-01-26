@@ -1,4 +1,4 @@
 {% extends "base.html" %}
 {% block content %}
-		{% for n in nodes %}{{n.stub}}<hr>{%endfor%}
+		{% for n in nodes %}<img class="tile" src="/static/img/{{n.f}}.jpg" />{{n.stub}}<hr>{%endfor%}
 {% endblock %}
